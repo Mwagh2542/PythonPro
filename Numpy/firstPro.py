@@ -1,0 +1,15 @@
+import numpy as np
+
+a = np.array([(1,2,3,13),(4,5,6,14),(7,8,9,15), (10,11,12,16)])
+b = np.array([('apple', 'orange', 'graph'), ('manjo', 'banana', 'papaya')])
+print ('1. Array represent = ', a, '\n')
+print ('2. number of elements represent = ', a.size, '\n')
+print ('3. First Row and Second coloum displayed = ', a.shape, '\n')
+print ('3. length displayed = ', len(a), '\n')
+print ('4. ItemSize represent bites = ', a.itemsize, 'bites \n')
+print ('5. DataType represent = ', a.dtype, '\n')
+print ('6. total', a.ndim, 'libary \n',  ' # Note : Here ndim syntax use for show the total number of list', '\n \ N use for NEW Line \n' )
+print ('7. String Array represent \n', b)
+print ('8. total', b.ndim, 'libary')
+print ('9. ItemSize represent bites = ', b.itemsize, 'bites \n')
+print ('10. DataType represent = ', b.dtype, '\n')
